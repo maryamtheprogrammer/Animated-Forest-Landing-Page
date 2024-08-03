@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav data-aos="fade-down"
+        data-aos-duration="1000">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+
+            <div class="navContent">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li><button>Login</button></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="main"  data-aos="fade-up"
+    data-aos-duration="3000">
+        <div class="main-text">
+            <h2 data-aos="fade-up"
+            data-aos-duration="2500">Hi,</h2>
+            <h1 data-aos="fade-left"
+            data-aos-duration="2500">Welcome to <span>Blue Forest!</span></h1>
+            <p data-aos="flip-up"
+            data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sit quod iure laboriosam ab provident modi, quis corporis unde, cum consequuntur odio repellendus minus delectus commodi ratione nemo, ex rem.</p>
+            <button data-aos="fade-right"
+            data-aos-duration="2000" class="btn-learn">Learn More</button>
+            <button data-aos="fade-left"
+            data-aos-duration="2000" class="btn-join">Join Community</button>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
